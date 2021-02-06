@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eticaret.API</name>
+    </assembly>
+    <members>
+        <member name="T:Eticaret.API.Controllers.ProductsController">
+            <summary>
+            Products Controller
+            </summary>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.#ctor(Eticaret.Business.Abstract.IProductService)">
+            <summary>
+            Product Service Dependency Injection
+            </summary>
+            <param name="_productService"></param>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.Get">
+            <summary>
+                Get All Products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Get Product With Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.GetProductByName(System.String)">
+            <summary>
+            Get Product with name
+            api/products/GetProductByName/name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.Post(Eticaret.Entities.Product)">
+            <summary>
+            Create Product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.Put(Eticaret.Entities.Product)">
+            <summary>
+            Update Product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eticaret.API.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Delete Product With Id
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
