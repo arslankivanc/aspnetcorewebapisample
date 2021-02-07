@@ -56,7 +56,6 @@ namespace Eticaret.API.Controllers
         }
         /// <summary>
         /// Get Product with name
-        /// api/products/GetProductByName/name
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
