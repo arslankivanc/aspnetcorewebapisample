@@ -85,7 +85,7 @@ namespace Eticaret.API.Controllers
         }
 
         /// <summary>
-        /// Update Product
+        /// Update Product 
         /// </summary>
         /// <param name="product"></param>
         /// <returns></returns>
